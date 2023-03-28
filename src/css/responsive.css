@@ -1,0 +1,39 @@
+@media (max-width: 425px) {
+    .container {
+        background: url(../images/bg-mobile.svg) top no-repeat;
+        background-size: contain;
+    }
+    
+    .header .logo img{
+        align-self: flex-start;
+        max-width: 150px;
+    }
+
+    .menu {
+        grid-template-columns: 1fr;
+        text-align: center;
+        gap: 0;
+        margin: 15px 15px 0 15px;
+    }
+
+    .menu img {
+        width: 90%;
+
+    }
+
+    .menu .text h1{
+        font-size: 2.8rem;
+        margin: 0;
+    }
+
+    .footer{
+        margin: 0;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .footer a i{
+        font-size: 1.8rem;
+    }
+
+}
