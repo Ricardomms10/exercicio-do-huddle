@@ -1,0 +1,111 @@
+html {
+    font-size: 62.5%;
+}
+
+body {
+    max-width: 1440px;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.container {
+    font-family: 'Poppins', sans-serif;
+    background: url('../image/bg-desktop.svg') #674baf center center no-repeat;
+    background-position: left;
+    max-width: 100%;
+    margin: 0 auto;
+    width: 1440px;
+    height: 100vh;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+
+main{
+    display: flex;
+   padding: 30px 60px;
+    
+}
+
+header .logo img {
+    width: 220px;
+    margin:5px 5px ;
+   
+}
+
+.menu .image img{
+    width: 400px;
+}
+
+.menu .text {
+  margin-left: 40px;
+  color: #FFF;
+}
+
+.menu .text h1 {
+    font-size: 3rem;
+    font-weight: 600;
+    color: #fff;
+    text-transform: capitalize;
+}
+
+.menu .text p {
+    color: #fff;
+    font-weight: 400;
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+.menu .text .btn-kno-more {
+    text-decoration: none;
+    padding: 10px;
+    color: #674baf;
+    background-color: #fff;
+    width: 180px;
+    height: 30px;
+    border-radius: 50px;
+    font-size: 1rem;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.3s;
+    margin-top: 5px;
+}
+
+.menu .text a:hover {
+    background-color: hsl(300, 69%, 71%);
+    color: #fff;
+}
+
+
+/* FOOTER */
+
+.footer {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.footer a  {
+    color: #fff;
+    font-size: 2.3rem;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    margin: 0 5px;
+    padding: 10px;
+    transition: 0.3s;
+    text-decoration: none;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer a:hover {
+    color: #fe57fe;
+    border: solid 1px #fe57fe;
+}
